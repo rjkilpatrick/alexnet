@@ -4,7 +4,16 @@ Whilst implementing AlexNet isn't hard, I want to better understand how to make 
 
 ## Quick start
 
-``` bash
+### Use my pretrained model
+
+```python
+import torch
+pretrained_alexnet = torch.hub.load("rjkilpatrick/alexnet:main", "alexnet", pretrained=True)
+```
+
+### Train your own model
+
+```bash
 git clone https://github.com/rjkilpatrick/alexnet
 cd alexnet
 conda install
