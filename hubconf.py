@@ -57,7 +57,7 @@ def alexnet(pretrained=False, D_out=10, **kwargs):
     if pretrained:
         from pathlib import Path
 
-        model_location = Path("./alexnet_cifar10-fine-tune.pth")
+        model_location = Path("./alexnet_cifar10-one-cycle.pth")
         state_dict = torch.load(model_location)
         model.load_state_dict(state_dict)
     return model

@@ -6,3 +6,4 @@ data_batch_4 filter=lfs diff=lfs merge=lfs -text
 data_batch_5 filter=lfs diff=lfs merge=lfs -text
 test_batch filter=lfs diff=lfs merge=lfs -text
 *.tar.gz filter=lfs diff=lfs merge=lfs -text
+*.pth filter=lfs diff=lfs merge=lfs -text

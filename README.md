@@ -2,6 +2,9 @@
 
 Whilst implementing AlexNet isn't hard, I want to better understand how to make a model.
 
+At present, we get 80.68% on the test set.
+This is with an extrememly low loss, even on the testing set.
+
 ## Quick start
 
 ### Use my pretrained model
